@@ -53,7 +53,9 @@ If no recognized module system is present, access bundle contents via the global
 ```html
 <script type="text/javascript">
 (function () {
+(function () {
     window.minBy;
+})();
 })();
 </script>
 ```
@@ -208,6 +210,7 @@ var v = minBy.ndarray( 3, x, 1, x.length-3, accessor );
 <body>
 <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/random-base-discrete-uniform@umd/browser.js"></script>
 <script type="text/javascript">
+(function () {
 (function () {.factory;
 var filledarrayBy = require( '@stdlib/array-filled-by' );
 var minBy = require( '@stdlib/stats-base-min-by' );
@@ -222,6 +225,7 @@ console.log( x );
 var v = minBy( x.length, x, 1, accessor );
 console.log( v );
 
+})();
 })();
 </script>
 </body>
@@ -325,15 +329,15 @@ Copyright &copy; 2016-2022. The Stdlib [Authors][stdlib-authors].
 
 <!-- <related-links> -->
 
-[@stdlib/stats/base/dmin]: https://github.com/stdlib-js/stats-base-dmin/tree/umd
+[@stdlib/stats/base/dmin]: https://github.com/stdlib-js/stats-base-dmin/tree/umd/tree/umd
 
-[@stdlib/stats/base/max-by]: https://github.com/stdlib-js/stats-base-max-by/tree/umd
+[@stdlib/stats/base/max-by]: https://github.com/stdlib-js/stats-base-max-by/tree/umd/tree/umd
 
-[@stdlib/stats/base/min]: https://github.com/stdlib-js/stats-base-min/tree/umd
+[@stdlib/stats/base/min]: https://github.com/stdlib-js/stats-base-min/tree/umd/tree/umd
 
-[@stdlib/stats/base/nanmin-by]: https://github.com/stdlib-js/stats-base-nanmin-by/tree/umd
+[@stdlib/stats/base/nanmin-by]: https://github.com/stdlib-js/stats-base-nanmin-by/tree/umd/tree/umd
 
-[@stdlib/stats/base/smin]: https://github.com/stdlib-js/stats-base-smin/tree/umd
+[@stdlib/stats/base/smin]: https://github.com/stdlib-js/stats-base-smin/tree/umd/tree/umd
 
 <!-- </related-links> -->
 
