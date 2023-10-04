@@ -42,7 +42,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import minBy from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-min-by@deno/mod.js';
+import minBy from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-min-by@v0.1.1-deno/mod.js';
 ```
 
 #### minBy( N, x, stride, clbk\[, thisArg] )
@@ -192,7 +192,7 @@ var v = minBy.ndarray( 3, x, 1, x.length-3, accessor );
 ```javascript
 var discreteUniform = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/random-base-discrete-uniform' ).factory;
 import filledarrayBy from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-filled-by@deno/mod.js';
-import minBy from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-min-by@deno/mod.js';
+import minBy from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-min-by@v0.1.1-deno/mod.js';
 
 function accessor( v ) {
     return v * 2.0;
