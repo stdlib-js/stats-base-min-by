@@ -42,6 +42,11 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import minBy from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-min-by@esm/index.mjs';
+```
+The previous example will load the latest bundled code from the esm branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/stats-base-min-by/tags). For example,
+
+```javascript
 import minBy from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-min-by@v0.2.0-esm/index.mjs';
 ```
 
@@ -197,7 +202,7 @@ var v = minBy.ndarray( 3, x, 1, x.length-3, accessor );
 
 var discreteUniform = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/random-base-discrete-uniform' ).factory;
 import filledarrayBy from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-filled-by@esm/index.mjs';
-import minBy from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-min-by@v0.2.0-esm/index.mjs';
+import minBy from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-min-by@esm/index.mjs';
 
 function accessor( v ) {
     return v * 2.0;
