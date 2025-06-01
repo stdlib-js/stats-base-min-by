@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-05-31)
+## Unreleased (2025-06-01)
 
 <section class="features">
 
@@ -16,12 +16,23 @@
 
 <!-- /.features -->
 
+<section class="bug-fixes">
+
+### Bug Fixes
+
+-   [`72d1412`](https://github.com/stdlib-js/stdlib/commit/72d1412ee12e86641d68fc537f64a24350861611) - pass input array
+
+</section>
+
+<!-- /.bug-fixes -->
+
 <section class="commits">
 
 ### Commits
 
 <details>
 
+-   [`72d1412`](https://github.com/stdlib-js/stdlib/commit/72d1412ee12e86641d68fc537f64a24350861611) - **fix:** pass input array _(by Athan Reines)_
 -   [`cdd2f1a`](https://github.com/stdlib-js/stdlib/commit/cdd2f1a7003c811f1379e3fc05fafbb3236dd74f) - **feat:** add support for accessor arrays and refactor `stats/base/min-by`  [(#7146)](https://github.com/stdlib-js/stdlib/pull/7146) _(by Gururaj Gurram)_
 -   [`a1e40cd`](https://github.com/stdlib-js/stdlib/commit/a1e40cde868d9195a9779a987915325f6efa3029) - **refactor:** update paths _(by Aayush Khanna)_
 -   [`333db47`](https://github.com/stdlib-js/stdlib/commit/333db47fbaf71f768a5d27c2a29b11656093f561) - **refactor:** update paths _(by Aayush Khanna)_
@@ -37,9 +48,10 @@
 
 ### Contributors
 
-A total of 3 people contributed to this release. Thank you to the following contributors:
+A total of 4 people contributed to this release. Thank you to the following contributors:
 
 -   Aayush Khanna
+-   Athan Reines
 -   Gururaj Gurram
 -   Philipp Burckhardt
 
