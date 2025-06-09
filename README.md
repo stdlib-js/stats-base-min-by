@@ -233,7 +233,7 @@ console.log( v );
 ## See Also
 
 -   <span class="package-name">[`@stdlib/stats-strided/dmin`][@stdlib/stats/strided/dmin]</span><span class="delimiter">: </span><span class="description">calculate the minimum value of a double-precision floating-point strided array.</span>
--   <span class="package-name">[`@stdlib/stats-base/max-by`][@stdlib/stats/base/max-by]</span><span class="delimiter">: </span><span class="description">calculate the maximum value of a strided array via a callback function.</span>
+-   <span class="package-name">[`@stdlib/stats-strided/max-by`][@stdlib/stats/strided/max-by]</span><span class="delimiter">: </span><span class="description">calculate the maximum value of a strided array via a callback function.</span>
 -   <span class="package-name">[`@stdlib/stats-base/min`][@stdlib/stats/base/min]</span><span class="delimiter">: </span><span class="description">calculate the minimum value of a strided array.</span>
 -   <span class="package-name">[`@stdlib/stats-base/nanmin-by`][@stdlib/stats/base/nanmin-by]</span><span class="delimiter">: </span><span class="description">calculate the minimum value of a strided array via a callback function, ignoring NaN values.</span>
 -   <span class="package-name">[`@stdlib/stats-strided/smin`][@stdlib/stats/strided/smin]</span><span class="delimiter">: </span><span class="description">calculate the minimum value of a single-precision floating-point strided array.</span>
@@ -324,7 +324,7 @@ Copyright &copy; 2016-2025. The Stdlib [Authors][stdlib-authors].
 
 [@stdlib/stats/strided/dmin]: https://github.com/stdlib-js/stats-strided-dmin
 
-[@stdlib/stats/base/max-by]: https://github.com/stdlib-js/stats-base-max-by
+[@stdlib/stats/strided/max-by]: https://github.com/stdlib-js/stats-strided-max-by
 
 [@stdlib/stats/base/min]: https://github.com/stdlib-js/stats-base-min
 

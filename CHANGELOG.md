@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-06-07)
+## Unreleased (2025-06-09)
 
 <section class="features">
 
@@ -32,6 +32,7 @@
 
 <details>
 
+-   [`1782090`](https://github.com/stdlib-js/stdlib/commit/17820909290d01df1ee44cc370d18e74d76291d9) - **refactor:** update paths _(by Gururaj Gurram)_
 -   [`309db06`](https://github.com/stdlib-js/stdlib/commit/309db06f06f20a57c91de51e224b33369d09fa09) - **docs:** fix note _(by Athan Reines)_
 -   [`72d1412`](https://github.com/stdlib-js/stdlib/commit/72d1412ee12e86641d68fc537f64a24350861611) - **fix:** pass input array _(by Athan Reines)_
 -   [`cdd2f1a`](https://github.com/stdlib-js/stdlib/commit/cdd2f1a7003c811f1379e3fc05fafbb3236dd74f) - **feat:** add support for accessor arrays and refactor `stats/base/min-by`  [(#7146)](https://github.com/stdlib-js/stdlib/pull/7146) _(by Gururaj Gurram)_
